@@ -27,7 +27,7 @@ function showMessage(message, isSuccess = false) {
 // Função assíncrona que envia o formulário para a API
 async function sendForm(endpoint, data) {
   try {
-    const response = await fetch(`https://projeto-jwt.vercel.app/auth/${endpoint}`, {
+    const response = await fetch(`hprojetojwt-back-end-production.up.railway.app/auth/${endpoint}`, {
       method: 'POST', // Define o método como POST
       headers: {
         'Content-Type': 'application/json' // Define o tipo de conteúdo como JSON
